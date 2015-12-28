@@ -13,3 +13,7 @@ update-alternatives --install /usr/bin/jar jar /usr/lib/jdk1.8.0_65/bin/jar 100
 sudo apt-get install linux-headers-`uname -r`
 
 sudo apt-get install libgstreamer-plugins-base0.10-dev  # For RStudio
+
+adduser <username> sudo
+apt-get install sudo 
+
