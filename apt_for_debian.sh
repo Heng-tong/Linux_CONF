@@ -17,3 +17,4 @@ sudo apt-get install libgstreamer-plugins-base0.10-dev  # For RStudio
 adduser <username> sudo
 apt-get install sudo 
 
+## Note: Do not forget to install Gnome extention "TopIcon".
