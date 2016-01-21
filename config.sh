@@ -13,4 +13,4 @@ sudo apt-get update
 sudo apt-get install plank
 
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
-sudo echo deb https://cran.cnr.berkeley.edu/bin/linux/ubuntu trusty/ >> /etc/apt/sources.list 
+sudo echo deb https://cran.cnr.berkeley.edu/bin/linux/ubuntu wily/ >> /etc/apt/sources.list 
