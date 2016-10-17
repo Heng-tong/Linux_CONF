@@ -11,3 +11,5 @@ apt-get autoremove -y
 apt-get upgrade -y
 apt-get clean -y
 # http://www.ravefinity.com/p/download-ambiance-radiance-flat-colors.html
+
+# http://askubuntu.com/questions/732967/dropbox-icon-is-not-working-xubuntu-14-04-lts-64
