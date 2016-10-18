@@ -6,8 +6,15 @@ apt-get remove hexchat -y
 
 apt-get install git build-essential vim openssh-server -y
 apt-get install openjdk-8-jdk -y
-# apt-get install chromium-browser -y
+apt-get install chromium-browser -y
 # apt-get purge firefox* -y
+
+add-apt-repository ppa:ubuntu-desktop/ubuntu-make -y
+apt-get update -y
+apt-get install ubuntu-make -y
+
+umake ide pycharm
+
 
 apt-get autoremove -y
 apt-get upgrade -y
