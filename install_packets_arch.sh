@@ -13,3 +13,7 @@ pacman -S yaourt
 
 # Clear cache
 pacman -Scc
+
+wget http://more-sky.com/data/out/7/IMG_170136.png
+mv IMG_170136.png ~/Desktop/mate-community.png
+sudo mv ~/Desktop/mate-community.png mate-community.png
