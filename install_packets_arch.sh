@@ -10,7 +10,6 @@ pacman -R $(pacman -Qdtq)
 pacman -S filezilla dropbox vim git jdk8-openjdk 
 
 pacman -S yaourt
-yaourt google-chrome
 
 # Clear cache
 pacman -Scc
