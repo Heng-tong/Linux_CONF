@@ -1,6 +1,6 @@
 
 # Remove libre office and firefox
-sudo pacman -R libreoffice-still 
+sudo pacman -R libreoffice-fresh 
 
 # Remove unused dependencies
 sudo pacman -R $(pacman -Qdtq)
