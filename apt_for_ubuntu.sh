@@ -29,8 +29,3 @@ apt-get clean -y
 # http://www.ravefinity.com/p/download-ambiance-radiance-flat-colors.html
 
 # http://askubuntu.com/questions/732967/dropbox-icon-is-not-working-xubuntu-14-04-lts-64
-
-
-wget http://more-sky.com/data/out/7/IMG_170136.png
-mv IMG_170136.png ~/Desktop/mate-community.png
-sudo mv ~/Desktop/mate-community.png mate-community.png
