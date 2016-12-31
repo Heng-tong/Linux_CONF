@@ -6,7 +6,11 @@ sudo pacman -R libreoffice-fresh
 sudo pacman -R $(pacman -Qdtq)
 
 # Install software
-sudo pacman -S filezilla dropbox vim git jdk8-openjdk 
+sudo pacman -S filezilla dropbox vim git jdk8-openjdk openssh
+
+# Enable ssh
+sudo systemctl enable sshd
+sudo systemctl start sshd
 
 sudo pacman -S yaourt
 
