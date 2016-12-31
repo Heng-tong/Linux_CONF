@@ -12,6 +12,9 @@ sudo pacman -S filezilla dropbox vim git jdk8-openjdk openssh
 sudo systemctl enable sshd
 sudo systemctl start sshd
 
+# Handle dual monitor problem in i3.
+echo 'xrandr --output DP1 --mode 1920x1080 --left-of DP2' >> ~/.xsession
+
 sudo pacman -S yaourt
 
 # Clear cache
