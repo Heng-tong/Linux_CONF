@@ -15,12 +15,12 @@ apt-get install openjdk-8-jdk -y
 
 # umake ide pycharm
 
-# sudo add-apt-repository ppa:numix/ppa -y
-# sudo apt-get update -y
-# sudo apt-get install numix-gtk-theme -y
+sudo add-apt-repository ppa:numix/ppa -y
+sudo apt-get update -y
+sudo apt-get install numix-gtk-theme -y
 
-# sudo apt-get install numix-icon-theme* -y
-# sudo apt-get install numix-wallpaper-* -y
+sudo apt-get install numix-icon-theme* -y
+sudo apt-get install numix-wallpaper-* -y
 
 
 apt-get autoremove -y
